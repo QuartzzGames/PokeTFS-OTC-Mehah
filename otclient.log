@@ -1,0 +1,120 @@
+== application started at Mar 31 2024 21:24:17
+== operating system: Windows
+OTClient - Redemption 3.1 rev 4.065 (main) built on May 20 2023 for arch x64
+Startup done :]
+ERROR: Failed to read dat '/data/things/1098/Tibia.dat': unable to open file '/data/things/1098/Tibia.dat': not found'
+ERROR: Failed to load sprites from '/data/things/1098/Tibia': unable to open file '/data/things/1098/Tibia.spr': not found
+ERROR: Unable to send extended opcode 1, extended opcodes are not enabled
+ERROR: ProtocolGame parse message exception (5771 bytes unread, last opcode is 100, prev opcode is 15): unable to create item with invalid id 62213
+ERROR: no thing at pos:95 117 7, stackpos:2
+at:
+	[C++]: ?getMappedThing@ProtocolGame@@QEBA?AV?$shared_ptr@VThing@@@std@@AEBV?$shared_ptr@VInputMessage@@@3@@Z
+ERROR: no creature found to move
+at:
+	[C++]: ?parseCreatureMove@ProtocolGame@@AEAAXAEBV?$shared_ptr@VInputMessage@@@std@@@Z
+ERROR: no thing at pos:95 118 7, stackpos:2
+at:
+	[C++]: ?getMappedThing@ProtocolGame@@QEBA?AV?$shared_ptr@VThing@@@std@@AEBV?$shared_ptr@VInputMessage@@@3@@Z
+ERROR: no creature found to move
+at:
+	[C++]: ?parseCreatureMove@ProtocolGame@@AEAAXAEBV?$shared_ptr@VInputMessage@@@std@@@Z
+ERROR: no thing at pos:95 119 7, stackpos:2
+at:
+	[C++]: ?getMappedThing@ProtocolGame@@QEBA?AV?$shared_ptr@VThing@@@std@@AEBV?$shared_ptr@VInputMessage@@@3@@Z
+ERROR: no creature found to move
+at:
+	[C++]: ?parseCreatureMove@ProtocolGame@@AEAAXAEBV?$shared_ptr@VInputMessage@@@std@@@Z
+ERROR: ProtocolGame parse message exception (0 bytes unread, last opcode is 103, prev opcode is 109): InputMessage eof reached
+ERROR: no creature found to move
+at:
+	[C++]: ?parseCreatureMove@ProtocolGame@@AEAAXAEBV?$shared_ptr@VInputMessage@@@std@@@Z
+ERROR: no thing at pos:95 121 7, stackpos:2
+at:
+	[C++]: ?getMappedThing@ProtocolGame@@QEBA?AV?$shared_ptr@VThing@@@std@@AEBV?$shared_ptr@VInputMessage@@@3@@Z
+ERROR: no creature found to move
+at:
+	[C++]: ?parseCreatureMove@ProtocolGame@@AEAAXAEBV?$shared_ptr@VInputMessage@@@std@@@Z
+ERROR: no thing at pos:96 121 7, stackpos:2
+at:
+	[C++]: ?getMappedThing@ProtocolGame@@QEBA?AV?$shared_ptr@VThing@@@std@@AEBV?$shared_ptr@VInputMessage@@@3@@Z
+ERROR: no creature found to move
+at:
+	[C++]: ?parseCreatureMove@ProtocolGame@@AEAAXAEBV?$shared_ptr@VInputMessage@@@std@@@Z
+ERROR: no creature found to move
+at:
+	[C++]: ?parseCreatureMove@ProtocolGame@@AEAAXAEBV?$shared_ptr@VInputMessage@@@std@@@Z
+ERROR: no thing at pos:96 119 7, stackpos:2
+at:
+	[C++]: ?getMappedThing@ProtocolGame@@QEBA?AV?$shared_ptr@VThing@@@std@@AEBV?$shared_ptr@VInputMessage@@@3@@Z
+ERROR: no creature found to move
+at:
+	[C++]: ?parseCreatureMove@ProtocolGame@@AEAAXAEBV?$shared_ptr@VInputMessage@@@std@@@Z
+ERROR: ProtocolGame parse message exception (0 bytes unread, last opcode is 101, prev opcode is 109): InputMessage eof reached
+ERROR: no thing at pos:96 118 7, stackpos:2
+at:
+	[C++]: ?getMappedThing@ProtocolGame@@QEBA?AV?$shared_ptr@VThing@@@std@@AEBV?$shared_ptr@VInputMessage@@@3@@Z
+ERROR: no creature found to move
+at:
+	[C++]: ?parseCreatureMove@ProtocolGame@@AEAAXAEBV?$shared_ptr@VInputMessage@@@std@@@Z
+ERROR: no thing at pos:97 118 7, stackpos:2
+at:
+	[C++]: ?getMappedThing@ProtocolGame@@QEBA?AV?$shared_ptr@VThing@@@std@@AEBV?$shared_ptr@VInputMessage@@@3@@Z
+ERROR: no creature found to move
+at:
+	[C++]: ?parseCreatureMove@ProtocolGame@@AEAAXAEBV?$shared_ptr@VInputMessage@@@std@@@Z
+ERROR: no thing at pos:98 118 7, stackpos:1
+at:
+	[C++]: ?getMappedThing@ProtocolGame@@QEBA?AV?$shared_ptr@VThing@@@std@@AEBV?$shared_ptr@VInputMessage@@@3@@Z
+ERROR: no creature found to move
+at:
+	[C++]: ?parseCreatureMove@ProtocolGame@@AEAAXAEBV?$shared_ptr@VInputMessage@@@std@@@Z
+ERROR: no thing at pos:98 119 7, stackpos:1
+at:
+	[C++]: ?getMappedThing@ProtocolGame@@QEBA?AV?$shared_ptr@VThing@@@std@@AEBV?$shared_ptr@VInputMessage@@@3@@Z
+ERROR: no creature found to move
+at:
+	[C++]: ?parseCreatureMove@ProtocolGame@@AEAAXAEBV?$shared_ptr@VInputMessage@@@std@@@Z
+ERROR: ProtocolGame parse message exception (0 bytes unread, last opcode is 103, prev opcode is 109): InputMessage eof reached
+Exiting application..
+== application started at Mar 31 2024 21:32:34
+== operating system: Windows
+OTClient - Redemption 3.1 rev 4.065 (main) built on May 20 2023 for arch x64
+Startup done :]
+ERROR: invalid outfit looktype 1054
+at:
+	[C++]: ?getOutfit@ProtocolGame@@QEBA?AVOutfit@@AEBV?$shared_ptr@VInputMessage@@@std@@_N@Z
+ERROR: Lua exception: /corelib/keyboard.lua:103: attempt to index field 'boundKeyPressCombos' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/corelib/keyboard.lua:103: in function </corelib/keyboard.lua:99>
+ERROR: protected lua call failed: LUA ERROR:
+/corelib/keyboard.lua:103: attempt to index field 'boundKeyPressCombos' (a nil value)
+stack traceback:
+	[C]: in function '__index'
+	/corelib/keyboard.lua:103: in function </corelib/keyboard.lua:99>
+Exiting application..
+== application started at Apr 01 2024 11:01:47
+== operating system: Windows
+OTClient - Redemption 3.1 rev 4.065 (main) built on May 20 2023 for arch x64
+Startup done :]
+Exiting application..
+== application started at Apr 01 2024 12:42:17
+== operating system: Windows
+OTClient - Redemption 3.1 rev 4.065 (main) built on May 20 2023 for arch x64
+Startup done :]
+Exiting application..
+== application started at Apr 01 2024 16:16:55
+== operating system: Windows
+OTClient - Redemption 3.1 rev 4.065 (main) built on May 20 2023 for arch x64
+Startup done :]
+Exiting application..
+== application started at Apr 02 2024 13:51:22
+== operating system: Windows
+OTClient - Redemption 3.1 rev 4.065 (main) built on May 20 2023 for arch x64
+Startup done :]
+Exiting application..
+== application started at Apr 02 2024 14:07:04
+== operating system: Windows
+OTClient - Redemption 3.1 rev 4.065 (main) built on May 20 2023 for arch x64
+Startup done :]
+Exiting application..
